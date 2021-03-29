@@ -57,12 +57,12 @@ class ViewController: UIViewController {
         var str: NSAttributedString!
 
         while true {
-            font = UIFont withSize(fontSize: fontSize)
+            font = UIFont(name: "Georgia-Italic", size: fontSize)!
             attrs = [.font: font, .foregroundColor: UIColor.white]
-
+            
             str = NSAttributedString(string: selectedQuote.text, attributes: attrs)
             quoteRect = str.boundingRect(with: CGSize(width: drawBounds.width, height: .greatestFiniteMagnitude), options: .usesLineFragmentOrigin, context: nil)
-
+            
             if quoteRect.height > drawBounds.height {
                 fontSize -= 4
             } else {
