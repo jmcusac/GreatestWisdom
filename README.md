@@ -1,7 +1,7 @@
 # Greatest Wisdom
 
-### Greatest Wisdom to show Swift and Storyboards
+### Greatest Wisdom to show Swift, Storyboards, NSNotifications and local JSON parsing
 
-Swift 5, JSON, Notifications and a visual engine without using any stacks. Even though I think stacks are incredibly powerful and more useful and far faster in draw times than what is on display here
+PNGs without gradient zStacks. Modern stacks are more dynamic, far faster in draw times and cheaper in resources than .png files as shown here.
 
-![Demo Animation](https://www.home.b2innovation.com/img/Chat-Icon.gif?raw=true)
+![Demo Animation](https://www.home.b2innovation.com/img/GreatestWisdom.png?raw=true)
